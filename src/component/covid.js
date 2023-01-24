@@ -1,26 +1,11 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import Card from './Card'
 import './covid.css';
 // useState
-const Covid = () => {
-    const [data,setData] = useState([])
+const Covid = (data) => {
     // console.log(data);
-    const getCovidData = async ()=>{
-        try {
-            const res = await fetch('https://data.covid19india.org/v4/min/data.min.json')
-            const actualdata = await res.json()
-            // setData(actualdata.AN.delta7.recovered)
-            setData(actualdata);
-        } catch (error) {
-            console.log(error)
-        }
-    }
-    const eachState = Object.keys(data);
-    console.log(eachState.length);
-
-    useEffect(()=>{
-        getCovidData();
-    },[])
+    const eachState = Object.keys(data.data);
+    // console.log(eachState);
 
   return (
     <>

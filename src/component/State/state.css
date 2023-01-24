@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    max-width: 100%;
+}
+
+.ti{
+    font-size: 150px;
+    padding-left: 40vmax;
+    padding-top: 10px;
+}
+
+.tim{
+    font-size: x-large;
+}
+
+.tim h5{
+    margin: 2vmax 9vmax;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin: 15px;
+    width: 300px;
+    height: 200px;
+    text-decoration: none;
+    transition: all 0.5;
+    color: white;
+}
+
+.card > p{
+    font-size: x-large;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card > h1{
+    font-size: medium;
+    color: white;
+}
