@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/code_crona/static/css/main.fca30e1d.css",
+    "main.js": "/code_crona/static/js/main.3f3f2d76.js",
+    "index.html": "/code_crona/index.html",
+    "main.fca30e1d.css.map": "/code_crona/static/css/main.fca30e1d.css.map",
+    "main.3f3f2d76.js.map": "/code_crona/static/js/main.3f3f2d76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fca30e1d.css",
+    "static/js/main.3f3f2d76.js"
+  ]
+}
