@@ -57,10 +57,10 @@ p{
 
 @media screen and (max-width: 600px){
     .card_main{
-        font-size: 1.7vmax;
+        font-size: 17.7vmax;
     }
 
     .card > span{
-        font-size: 1.5vmax;
+        font-size: 4.5vmax;
     }
 }
